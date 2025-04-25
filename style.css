@@ -1,0 +1,66 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option {
+  padding: 10px 13px;
+  font-size: 50px;
+  border-style: none;
+  background-color: azure;
+  border-radius: 50px;
+}
+
+#rock {
+  background-color: red;
+}
+
+#rock:hover {
+  background-color: rgb(106, 1, 1);
+  cursor: pointer;
+}
+
+#paper {
+  background-color: green;
+}
+
+#paper:hover {
+  cursor: pointer;
+  background-color: rgb(17, 63, 17);
+}
+
+#scissors {
+  background-color: blue;
+}
+
+#scissors:hover {
+  cursor: pointer;
+  background-color: rgb(4, 4, 74);
+}
+
+#result {
+  font-weight: bold;
+}
+
+#one {
+  color: red;
+}
+
+#two {
+  color: blue;
+}
+
+#message {
+  animation-delay: 1s;
+  margin-top: 10px;
+}
